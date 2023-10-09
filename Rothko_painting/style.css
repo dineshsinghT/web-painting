@@ -6,8 +6,13 @@
     filter: blur(2px);
   }
   
+
   .frames {
     border: 60px solid black;
+
+  .frame {
+    border: 55px solid black;
+
     width: 500px;
     padding: 60px;
     margin: 20px auto;
@@ -28,13 +33,17 @@
     height: 200px;
     background-color: #8f0401;
     margin: 0 auto 20px;
-    box-shadow: 0 0 3px 3px #8f0401;
+    box-shadow: 0 0 4px 3px #8f0401;
     border-radius: 8px 10px;
     transform: rotate(0.4deg);
   }
   
+
   .one, .two, .four {
     filter: blur(2px);
+  .one, .two {
+    filter: blur(1px);
+
   }
   
   .three {
