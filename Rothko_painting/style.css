@@ -7,9 +7,9 @@
   }
   
   .frame {
-    border: 50px solid black;
+    border: 60px solid black;
     width: 500px;
-    padding: 50px;
+    padding: 60px;
     margin: 20px auto;
   }
   
@@ -18,7 +18,7 @@
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
-    box-shadow: 0 0 3px 3px #efb762;
+    box-shadow: 0 0 4px 4px #efb762;
     border-radius: 9px;
     transform: rotate(-0.6deg);
   }
@@ -34,7 +34,7 @@
   }
   
   .one, .two, .four {
-    filter: blur(1px);
+    filter: blur(2px);
   }
   
   .three {
